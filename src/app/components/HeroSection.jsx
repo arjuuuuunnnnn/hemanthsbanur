@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-zinc-400  text-4xl sm:text-2xl lg:text-4xl font-extrabold">
             Hello, I'm<br></br>
-            <span className="">Hemanth</span>
+            {/* <span className="">Hemanth</span> */}
           </h1>
           <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <TypeAnimation sequence={[
