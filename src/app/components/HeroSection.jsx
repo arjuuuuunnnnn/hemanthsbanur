@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-zinc-400  text-4xl sm:text-2xl lg:text-4xl font-extrabold">
             <br/><br/>
-            Hello, I'm<br></br>
+            Hello, I&apos;m<br></br>
           </h1>
           <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <TypeAnimation sequence={[
@@ -30,7 +30,7 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
+          I&apos;m a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
           </p>
           <div>
             <button 
