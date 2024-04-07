@@ -10,28 +10,37 @@ const EmailSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const data = {
-      email: e.target.email.value,
-      subject: e.target.subject.value,
-      message: e.target.message.value,
-    };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    try {
+      const data = {
+        email: e.target.email.value,
+        subject: e.target.subject.value,
+        message: e.target.message.value,
+      };
+      const JSONdata = JSON.stringify(data);
+      const endpoint = "api/send";
 
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSONdata,
-    };
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSONdata,
+      };
 
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
+      const response = await fetch(endpoint, options);
+      const resData = await response.json();
+      console.log(resData);
 
-    if (resData.status === 200) {
-      console.log("Message sent");
-      setEmailSubmitted(true);
+      if (resData.status === 200) {
+        console.log("Message sent");
+        setEmailSubmitted(true);
+      } else {
+        console.error("Error sending email:", resData.error);
+        setEmailSubmitted(false);
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setEmailSubmitted(false);
     }
   };
 

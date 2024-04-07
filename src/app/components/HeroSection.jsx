@@ -9,8 +9,8 @@ export const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-zinc-400  text-4xl sm:text-2xl lg:text-4xl font-extrabold">
+            <br/><br/>
             Hello, I'm<br></br>
-            {/* <span className="">Hemanth</span> */}
           </h1>
           <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <TypeAnimation sequence={[
@@ -21,6 +21,8 @@ export const HeroSection = () => {
                 'Machine Learning Enthusiast',
                 1000,
                 'Game developer',
+                1000,
+                'DevOps Enthusiast',
                 1000
             ]}
             wrapper="span"
@@ -28,8 +30,7 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Hello welcome to my personal portfolio skjdbvishbdvjieb
-            fvbefbvoefvrusodcnsifbvoidn
+          I'm a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-emerald-950 via-emerald-900 to-lime-900">
@@ -43,8 +44,8 @@ export const HeroSection = () => {
               src="/images/hero-image.png"
               alt="hero image"
               className="relative transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              width={450}
+              height={450}
             />
           </div>
         </div>

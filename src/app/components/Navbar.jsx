@@ -28,9 +28,9 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text=5xl  text-zinc-400 font-extrabold font-mono"
+          className="text=5xl  text-zinc-400 font-extrabold font-mono hover:text-white"
         >
-          arjuuuuunnnnn
+          Hemanth S Banur
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -52,7 +52,9 @@ const Navbar = () => {
         <div className="menu hidden md:block md:w-auto font-mono text-zinc-400" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-10">
             {navLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index}
+              className="hover:text-emerald-800"
+              >
                 <NavLink href={link.path} title={link.title}/>
               </li>
             ))}
