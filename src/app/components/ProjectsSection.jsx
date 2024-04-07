@@ -6,7 +6,7 @@ const projectsData = [
   {
     id: 1,
     title: "Cropify",
-    description: "A farmer friendly web-application",
+    description: "A farmer friendly web-application uses machine learning algorithms",
     image: "/images/projects/1.png",
     gitUrl: "https://github.com/arjuuuuunnnnn/Cropify",
     previewUrl: "/",

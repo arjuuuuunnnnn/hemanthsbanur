@@ -33,7 +33,12 @@ export const HeroSection = () => {
           I'm a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-emerald-950 via-emerald-900 to-lime-900">
+            <button 
+            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-emerald-950 via-emerald-900 to-lime-900"
+            onClick={() => {
+              window.open('/images/resume/resume.pdf', '_blank');
+            }}
+            >
               <span className="text-zinc-300">Resume</span>
             </button>
           </div>
