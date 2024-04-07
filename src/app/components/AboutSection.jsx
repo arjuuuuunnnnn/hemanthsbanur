@@ -56,7 +56,7 @@ const AboutSection = () => {
           </h2>
           <p className="text-base md:text-lg text-zinc-400">
             Hello{" "}
-            <strong className="font-extrabold">I'm Hemanth S Banur</strong>
+            <strong className="font-extrabold">I&apos;m Hemanth S Banur</strong>
             <br />
             Just your average 19-year-old programmer, problem solver, and tech
             enthusiast.
@@ -66,7 +66,7 @@ const AboutSection = () => {
             </strong>
             <br />
             <br />
-            Of course, that's not all. I also happen to be a game developer and
+            Of course, that&apos;s not all. I also happen to be a game developer and
             a web developer. I mean, who needs a social life when you can spend
             your days{" "}
             <strong className="font-extrabold text-emerald-800">
@@ -79,27 +79,27 @@ const AboutSection = () => {
             ing, am I right?
             <br />
             <br />
-            And let's not forget my undying love for machine learning. I
+            And let&apos;s not forget my undying love for machine learning. I
             practically live in the terminal, running{" "}
             <strong className="font-extrabold text-emerald-800">
               python3 ml_model.py
             </strong>{" "}
-            until the sun comes up. It's a tough job, but someone's gotta do it.
+            until the sun comes up. It&apos;s a tough job, but someone&apos;s gotta do it.
             <br />
             <strong className="font-extrabold text-emerald-800">
               sudo apt-get install machine-learning
             </strong>
             <br />
             <br />
-            Oh, and did I mention I'm a total Linux enthusiast? I bet you
-            couldn't tell from all the{" "}
+            Oh, and did I mention I&apos;m a total Linux enthusiast? I bet you
+            couldn&apos;t tell from all the{" "}
             <strong className="font-extrabold text-emerald-800">
               sudo
             </strong>{" "}
             commands
             <br />
             <br />
-            Anyway, that's me in a nutshell. I'm a well-rounded individual with
+            Anyway, that&apos;s me in a nutshell. I&apos;m a well-rounded individual with
             a diverse skillset and an insatiable thirst for knowledge. Now, if
             you'll excuse me, I need to go{" "}
             <strong className="font-extrabold text-emerald-800">
