@@ -41,6 +41,14 @@ export const HeroSection = () => {
             >
               <span className="text-zinc-300">Resume</span>
             </button>
+            <button 
+            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-emerald-950 via-emerald-900 to-lime-900"
+            onClick={() => {
+              window.open('https://github.com/arjuuuuunnnnn', '_blank');
+            }}
+            >
+              <span className="text-zinc-300">GitHub</span>
+            </button>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
