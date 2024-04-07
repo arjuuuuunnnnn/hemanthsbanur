@@ -101,7 +101,7 @@ const AboutSection = () => {
             <br />
             Anyway, that&apos;s me in a nutshell. I&apos;m a well-rounded individual with
             a diverse skillset and an insatiable thirst for knowledge. Now, if
-            you'll excuse me, I need to go{" "}
+            you&apos;ll excuse me, I need to go{" "}
             <strong className="font-extrabold text-emerald-800">
               sudo reboot
             </strong>{" "}
