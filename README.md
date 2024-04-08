@@ -1,6 +1,6 @@
 # My Portfolio
 ### Welcome to my personal portfolio website
-### Just have a looWk into it
+### Just have a look into it
 [hemanthsbanur.vercel.app](https://hemanthsbanur.vercel.app)
 
 ![](image.png)
