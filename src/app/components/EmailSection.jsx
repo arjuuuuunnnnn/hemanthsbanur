@@ -141,6 +141,7 @@
 import React, { useState } from "react";
 import GithubIcon from "/public/github-icon.svg";
 import LinkedinIcon from "/public/linkedin-icon.svg";
+import EmailIcon from "/public/email-icon.svg" 
 import Link from "next/link";
 import Image from "next/image";
 import { useForm } from '@formspree/react';
@@ -167,12 +168,12 @@ const EmailSection = () => {
     }
   };
 
+
   return (
     <section
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <p className="text-xl font-extrabold text-emerald-800 my-2">
           Let&apos;s connect
@@ -190,6 +191,10 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+		  <Link href="mailto:arjunbanur27@gmail.com">
+            <Image src={EmailIcon} alt="Email Icon" />
+          </Link>
+
         </div>
       </div>
       <div>
