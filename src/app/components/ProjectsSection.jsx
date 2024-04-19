@@ -2,6 +2,7 @@
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 
+
 const projectsData = [
   {
     id: 1,
@@ -54,7 +55,7 @@ const projectsData = [
 ];
 
 const ProjectsSection = () => {
-  return (
+	return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-emerald-800 mt-4 mb-8 md:mb-12">
         My Projects
