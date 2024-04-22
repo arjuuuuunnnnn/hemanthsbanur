@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer border z-10 border-top-emerald-800 border-l-transparent text-zinc-400">
       <div className="container p-12 flex justify-between">
         <span className="">arjuuuuunnnnn</span>
-        <p className="text-zinc-400">We meet once again</p>
+        <p>There&apos;s no place like <br/> <span className="font-mono font-bold text-xl hover:text-emerald-800">&nbsp;&nbsp;127.0.0.1</span></p>
       </div>
     </footer>
   );
