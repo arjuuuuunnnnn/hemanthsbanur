@@ -45,7 +45,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="text-zinc-400">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={900} alt="About Image"/>
+        <Image src="/images/About.jpg" width={500} height={900} alt="About Image"/>
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
           <h2 className="text-4xl font-bold text-emerald-800">
             <br />
