@@ -3,8 +3,18 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export const HeroSection = () => {
+	const router = useRouter();
+	const handleResume = () => {
+		router.push("/error");
+	};
+
+	// const handleResume = () => {
+	// 	window.open('/images/resume/resume.pdf', '_blank');
+	// };
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -42,9 +52,7 @@ export const HeroSection = () => {
           <div class="space-y-2">
             <button 
             className="px-6 py-3 w-full sm:w-fit rounded-lg mr-4 bg-transparent border border-emerald-800 mt-3 border-[3px]"
-            onClick={() => {
-              window.open('/images/resume/resume.pdf', '_blank');
-            }}
+            onClick={handleResume}
             >
               <span className="text-zinc-300">Resume</span>
             </button>
