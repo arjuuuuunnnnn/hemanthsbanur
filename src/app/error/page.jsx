@@ -13,15 +13,14 @@ export const ErrorPage = () => {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen bg-[#121212]">
       <h1 className="text-3xl font-bold text-zinc-300 mb-4">
-        <strong className="font-extrabold">Error!!</strong> cannot{" "}
-        <strong className="font-extrabold text-emerald-800">cat resume</strong>
+        Cannot
+        <strong className="font-mono font-extrabold text-emerald-800"> &apos;cat resume&apos;</strong>
       </h1>
-      <p className="text-zinc-300 mb-6">
-        There was an error while trying to access the resume. Please try again
-        later.
+      <p className="font-mono text-zinc-300 mb-6">
+        Building one
       </p>
       <button
-        className="px-6 py-3 w-auto rounded-lg mr-4 bg-transparent border border-emerald-800 border-[3px] text-zinc-300"
+        className="px-6 py-3 w-auto rounded-lg mr-4 bg-transparent border border-emerald-800 border-[3px] text-zinc-300 font-mono"
         onClick={handleGoBack}
       >
         Go back
