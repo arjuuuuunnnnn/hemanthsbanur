@@ -67,6 +67,12 @@ const TAB_DATA = [
               alt="Postman icon"
             />
           </span>
+		<span className="mr-2 mb-2">
+            <img
+              src="https://skillicons.dev/icons?i=flutter&theme=dark"
+              alt="Postman icon"
+            />
+          </span>
         </div>
       </>
     ),
@@ -146,20 +152,40 @@ const TAB_DATA = [
           </span>
           <span className="mr-2 mb-2">
             <img
-              src="https://skillicons.dev/icons?i=tensorflow&theme=dark"
-              alt="TensorFlow icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=flutter&theme=dark"
-              alt="Flutter icon"
+              src="https://skillicons.dev/icons?i=dart&theme=dark"
+              alt="Dart Icon"
             />
           </span>
         </div>
       </>
     ),
   },
+	{
+		title: "ml",
+		id: "ml",
+		content: (
+			<>
+      <div className="flex flex-wrap">
+        <span className="mr-2 mb-2">
+          <img src="https://skillicons.dev/icons?i=sklearn&theme=dark" alt="sklearn icon" />
+        </span>
+        <span className="mr-2 mb-2">
+          <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" alt="PyTorch icon" />
+        </span>
+        <span className="mr-2 mb-2">
+          <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" alt="TensorFlow icon" />
+        </span>
+        <span className="mr-2 mb-2">
+          <img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV icon" />
+        </span>
+		<span className="mr-2 mb-2">
+		<img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" height="40" width="40"/>
+        </span>
+      </div>
+    </>
+		),
+		
+	},
 ];
 
 const AboutSection = () => {
@@ -255,7 +281,17 @@ const AboutSection = () => {
                 className="mr-4"
               >
                 {" "}
-                Dev Tools{" "}
+					Dev Tools
+				{" "}
+              </TabButton>
+              <TabButton
+                selectTab={() => handleTabChange("ml")}
+                active={tab === "ml"}
+                className="mr-4"
+              >
+                {" "}
+					ML
+				{" "}
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("webdev")}
@@ -263,16 +299,19 @@ const AboutSection = () => {
                 className="mr-4"
               >
                 {" "}
-                Web Dev{" "}
+					Web Dev
+				{" "}
               </TabButton>
-              <TabButton
+			  <TabButton
                 selectTab={() => handleTabChange("langs")}
                 active={tab === "langs"}
                 className="mr-4"
               >
                 {" "}
-                Languages{" "}
+					Languages
+				{" "}
               </TabButton>
+
             </div>
           </div>
           <div className="mt-8 mr-12">
