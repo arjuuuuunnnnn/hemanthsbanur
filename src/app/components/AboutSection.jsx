@@ -5,36 +5,120 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "devtools",
+    id: "devtools",
     content: (
-      <ul className="list-disc pl-2">
-        <li>
-          <strong className="font-extrabold">PES University</strong> [2022 -
-          Present]
-        </li>
-        <li>
-          <strong className="font-extrabold">SSSLS PU college</strong> [2020 -
-          2022]
-        </li>
-      </ul>
+     <>
+        <div className="flex flex-wrap">
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=azure" alt="Azure icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=debian" alt="Debian icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=docker" alt="Docker icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=github" alt="GitHub icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=git" alt="Git icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=kali" alt="Kali Linux icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=linux" alt="Linux icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=neovim" alt="Neovim icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=unity" alt="Unity icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=vim" alt="Vim icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=postman" alt="Postman icon" />
+          </span>
+        </div>
+      </> 
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "webdev",
+    id: "webdev",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Web Dev</li>
-        <li>Machine Learning</li>
-        <li>Game Dev</li>
-      </ul>
+     <>
+        <div className="flex flex-wrap">
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=html" alt="HTML icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=css" alt="CSS icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=js" alt="JavaScript icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=react" alt="React icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=flask" alt="Flask icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB icon" />
+          </span>
+        </div>
+      </> 
+    ),
+  },
+{
+    title: "langs",
+    id: "langs",
+    content: (
+         <>
+        <div className="flex flex-wrap">
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=c" alt="C icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=cpp" alt="C++ icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=py" alt="Python icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow icon" />
+          </span>
+          <span className="mr-2 mb-2">
+            <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter icon" />
+          </span>
+        </div>
+      </> 
     ),
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("devtools");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -109,23 +193,41 @@ const AboutSection = () => {
             my brain and come up with some more captivating hobbies
             <br />
           </p>
-          <div className="flex flex-row justify-start mt-8">
+		<div className="mt-8">
+		<h5 className="text-3xl font-bold text-emerald-800 mb-3">
+		My Tech Stack
+		</h5>
+          <div className="flex flex-row justify-start mr-12">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("devtools")}
+              active={tab === "devtools"}
+			  className="mr-4"
             >
               {" "}
-              Education{" "}
+				Dev Tools
+              {" "}
             </TabButton>
-            {/* <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+            <TabButton
+              selectTab={() => handleTabChange("webdev")}
+              active={tab === "webdev"}
+			  className="mr-4"
             >
               {" "}
-              Skills{" "}
-            </TabButton> */}
+				Web Dev
+			  {" "}
+            </TabButton>
+			<TabButton
+			  selectTab={() => handleTabChange("langs")}
+			  active={tab === "langs"}
+			  className="mr-4"
+			>
+			  {" "}
+				Languages
+			  {" "}
+			</TabButton>
           </div>
-          <div className="mt-8">
+		</div>
+          <div className="mt-8 mr-12">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
