@@ -281,7 +281,7 @@ const AboutSection = () => {
                 className="mr-4"
               >
                 {" "}
-					Dev Tools
+					Dev-Tools
 				{" "}
               </TabButton>
               <TabButton
@@ -299,7 +299,7 @@ const AboutSection = () => {
                 className="mr-4"
               >
                 {" "}
-					Web Dev
+					Web-Dev
 				{" "}
               </TabButton>
 			  <TabButton
