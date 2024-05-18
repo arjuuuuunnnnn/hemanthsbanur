@@ -216,8 +216,8 @@ const AboutSection = () => {
           </h2>
           <br />
           <p className="text-base md:text-lg text-zinc-400">
-            Hello{" "}
-            <strong className="font-extrabold">I&apos;m Hemanth S Banur</strong>
+            Hello I&apos;m{" "}
+            <strong className="font-extrabold">Hemanth S Banur</strong>
             <br />
             Just your average 19-year-old programmer, problem solver, and tech
             enthusiast.
