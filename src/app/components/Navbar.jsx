@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text=5xl  text-zinc-400 font-extrabold font-mono hover:text-white"
+          className="text=5xl  text-zinc-400 font-extrabold font-sans hover:text-white"
         >
           Hemanth S Banur
         </Link>

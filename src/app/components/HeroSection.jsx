@@ -25,11 +25,11 @@ export const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-zinc-400  text-4xl sm:text-2xl lg:text-4xl font-extrabold">
+          <h1 className="text-zinc-400  text-4xl sm:text-2xl lg:text-4xl font-extrabold font-sans">
             <br/><br/>
             Hello, I&apos;m<br></br>
           </h1>
-          <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold font-sans">
             <TypeAnimation sequence={[
                 'Hemanth',
                 1000,
@@ -46,7 +46,7 @@ export const HeroSection = () => {
             repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl font-sans">
           I&apos;m a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
           </p>
           <div class="space-y-2">
@@ -54,7 +54,7 @@ export const HeroSection = () => {
             className="px-6 py-3 w-full sm:w-fit rounded-lg mr-4 bg-transparent border border-emerald-800 mt-3 border-[3px]"
             onClick={handleResume}
             >
-              <span className="text-zinc-300">Resume</span>
+              <span className="text-zinc-300 font-sans">Resume</span>
             </button>
 
             <button 
@@ -63,7 +63,7 @@ export const HeroSection = () => {
               window.open('https://github.com/arjuuuuunnnnn', '_blank');
             }}
             >
-              <span className="text-zinc-300">GitHub</span>
+              <span className="text-zinc-300 font-sans">GitHub</span>
             </button>
           </div>
 	  </motion.div>

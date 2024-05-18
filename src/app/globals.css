@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.font-sans {
+	font-family: SFMono-Regular;
+}

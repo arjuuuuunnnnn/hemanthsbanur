@@ -207,7 +207,7 @@ const AboutSection = () => {
           alt="About Image"
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
-          <h2 className="text-4xl font-bold text-emerald-800">
+          <h2 className="text-4xl font-bold text-emerald-800 font-sans">
             <br />
             <br />
             <br />
@@ -215,7 +215,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <br />
-          <p className="text-base md:text-lg text-zinc-400">
+          <p className="text-base md:text-lg text-zinc-400 font-sans">
             Hello I&apos;m{" "}
             <strong className="font-extrabold">Hemanth S Banur</strong>
             <br />
@@ -271,7 +271,7 @@ const AboutSection = () => {
             <br />
           </p>
           <div className="mt-8">
-            <h5 className="text-3xl font-bold text-emerald-800 mb-3">
+            <h5 className="text-3xl font-bold text-emerald-800 mb-3 font-sans">
               My Tech Stack
             </h5>
             <div className="flex flex-row justify-start mr-12">
