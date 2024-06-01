@@ -46,10 +46,10 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "My Portfolio",
-    description: "Next JS built web application",
+    title: "Credit-Card Fraud Detection",
+    description: "MLOPs project, used DagsHub, MLFlow",
     image: "/images/projects/6.png",
-    gitUrl: "https://github.com/arjuuuuunnnnn/Portfolio",
+    gitUrl: "https://github.com/arjuuuuunnnnn/CreditCard-Fraud-Detect-MLOps",
     previewUrl: "/",
   },
 ];
