@@ -156,6 +156,12 @@ const TAB_DATA = [
               alt="Dart Icon"
             />
           </span>
+		  <span className="mr-2 mb-2">
+            <img
+              src="https://skillicons.dev/icons?i=cs&theme=dark"
+              alt="CS Icon"
+            />
+          </span>
         </div>
       </>
     ),
