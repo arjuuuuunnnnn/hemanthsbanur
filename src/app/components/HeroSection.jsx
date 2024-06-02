@@ -3,17 +3,17 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 export const HeroSection = () => {
-	const router = useRouter();
-	const handleResume = () => {
-		router.push("/error");
-	};
-
+	// const router = useRouter();
 	// const handleResume = () => {
-	// 	window.open('/images/resume/hemanth_cv.pdf', '_blank');
+	// 	router.push("/error");
 	// };
+
+	const handleResume = () => {
+		window.open('/images/resume/hemanth_cv.pdf', '_blank');
+	};
 
   return (
     <section>
