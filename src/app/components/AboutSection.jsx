@@ -213,7 +213,7 @@ const AboutSection = () => {
           alt="About Image"
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
-          <h2 className="text-4xl font-bold text-emerald-800 font-sans">
+          <h2 className="text-4xl font-bold text-emerald-800">
             <br />
             <br />
             <br />
@@ -277,7 +277,7 @@ const AboutSection = () => {
             <br />
           </p>
           <div className="mt-8">
-            <h5 className="text-3xl font-bold text-emerald-800 mb-3 font-sans">
+            <h5 className="text-3xl font-bold text-emerald-800 mb-3">
               My Tech Stack
             </h5>
             <div className="flex flex-row justify-start mr-12">
