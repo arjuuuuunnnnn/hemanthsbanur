@@ -12,7 +12,7 @@ export const HeroSection = () => {
 	// };
 
 	const handleResume = () => {
-		window.open('/images/resume/hemanth_cv.pdf', '_blank');
+		window.open('/resume/hemanth_cv.pdf', '_blank');
 	};
 
   return (
