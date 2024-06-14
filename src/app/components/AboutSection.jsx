@@ -2,6 +2,10 @@
 import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import { TbBrandNextjs, TbBrandCpp, TbBrandCSharp, TbBrandCoinbase } from "react-icons/tb";
+import { VscAzure, VscVscodeInsiders } from "react-icons/vsc";
+import { SiDebian, SiDocker, SiKalilinux, SiNeovim, SiVim, SiPostman, SiFlutter, SiJavascript, SiTailwindcss, SiFirebase, SiFlask,  SiMongodb, SiScikitlearn, SiPytorch, SiTensorflow, SiOpencv, SiPandas, SiNumpy, SiPython, SiDart} from "react-icons/si";
+import { FaGithub, FaGitAlt, FaLinux, FaUnity, FaHtml5, FaCss3, FaReact, FaNodeJs } from "react-icons/fa";
 
 const TAB_DATA = [
   {
@@ -10,69 +14,19 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=azure&theme=dark" alt="Azure icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=debian&theme=dark"
-              alt="Debian icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=docker&theme=dark"
-              alt="Docker icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=github&theme=dark"
-              alt="GitHub icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=kali&theme=dark"
-              alt="Kali Linux icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=neovim&theme=dark"
-              alt="Neovim icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=unity&theme=dark" alt="Unity icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=vim&theme=dark" alt="Vim icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=vscode&theme=dark"
-              alt="Visual Studio Code icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=postman&theme=dark"
-              alt="Postman icon"
-            />
-          </span>
-		<span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=flutter&theme=dark"
-              alt="Postman icon"
-            />
-          </span>
+          <span className="mr-2 mb-2"><VscAzure className="h-8 w-8" /></span>
+          <span className="mr-2 mb-2"><SiDebian className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiDocker className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaGithub className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaGitAlt className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiKalilinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaLinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiNeovim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaUnity className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiVim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><VscVscodeInsiders className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiPostman className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2"><SiFlutter className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -83,54 +37,16 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=js&theme=dark"
-              alt="JavaScript icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=nextjs&theme=dark"
-              alt="Next.js icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=nodejs&theme=dark"
-              alt="Node.js icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=tailwind&theme=dark"
-              alt="Tailwind CSS icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=firebase&theme=dark"
-              alt="Firebase icon"
-            />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=mongodb&theme=dark"
-              alt="MongoDB icon"
-            />
-          </span>
+          <span className="mr-2 mb-2"><FaHtml5 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaCss3 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiJavascript className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaReact className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><TbBrandNextjs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><FaNodeJs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiTailwindcss className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiFirebase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiFlask className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiMongodb className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -141,27 +57,11 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=c&theme=dark" alt="C icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++ icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python icon" />
-          </span>
-          <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=dart&theme=dark"
-              alt="Dart Icon"
-            />
-          </span>
-		  <span className="mr-2 mb-2">
-            <img
-              src="https://skillicons.dev/icons?i=cs&theme=dark"
-              alt="CS Icon"
-            />
-          </span>
+          <span className="mr-2 mb-2"><TbBrandCoinbase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><TbBrandCpp className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiPython className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2"><SiDart className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2"><TbBrandCSharp className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -172,25 +72,16 @@ const TAB_DATA = [
 		content: (
 			<>
       <div className="flex flex-wrap">
-        <span className="mr-2 mb-2">
-          <img src="https://skillicons.dev/icons?i=sklearn&theme=dark" alt="sklearn icon" />
-        </span>
-        <span className="mr-2 mb-2">
-          <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" alt="PyTorch icon" />
-        </span>
-        <span className="mr-2 mb-2">
-          <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" alt="TensorFlow icon" />
-        </span>
-        <span className="mr-2 mb-2">
-          <img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV icon" />
-        </span>
-		<span className="mr-2 mb-2">
-		<img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" height="40" width="40"/>
-        </span>
+        <span className="mr-2 mb-2"><SiScikitlearn className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2"><SiPytorch className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2"><SiTensorflow className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2"><SiOpencv className="h-8 w-8"/></span>
+		    <span className="mr-2 mb-2"><SiPandas className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2"><SiNumpy className="h-8 w-8"/></span>
       </div>
     </>
 		),
-		
+
 	},
 ];
 
@@ -221,7 +112,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <br />
-          <p className="text-base md:text-lg text-zinc-400">
+          <p className="md:text-lg text-zinc-400">
             Hello I&apos;m{" "}
             <strong className="font-extrabold">Hemanth S Banur</strong>
             <br />
