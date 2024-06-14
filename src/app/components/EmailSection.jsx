@@ -138,12 +138,10 @@
 
 
 "use client";
-import React, { useState } from "react";
-import GithubIcon from "/public/github-icon.svg";
-import LinkedinIcon from "/public/linkedin-icon.svg";
-import EmailIcon from "/public/email-icon.svg" 
+import React, { useState } from "react"; 
 import Link from "next/link";
-import Image from "next/image";
+import { IoMail, IoLogoLinkedin } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 import { useForm } from '@formspree/react';
 
 const EmailSection = () => {
@@ -184,16 +182,16 @@ const EmailSection = () => {
           Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-3 text-zinc-400">
           <Link href="https://github.com/arjuuuuunnnnn">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <FaGithub className="h-8 w-8"/>
           </Link>
           <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <IoLogoLinkedin className="h-8 w-8"/>
           </Link>
 		  <Link href="mailto:arjunbanur27@gmail.com">
-            <Image src={EmailIcon} alt="Email Icon" />
-          </Link>
+		<IoMail className="h-9 w-9"/>
+		</Link>
 
         </div>
       </div>
