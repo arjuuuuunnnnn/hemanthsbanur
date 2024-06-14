@@ -112,7 +112,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <br />
-          <p className="md:text-lg text-zinc-400">
+          <p className="text-zinc-400">
             Hello I&apos;m{" "}
             <strong className="font-extrabold">Hemanth S Banur</strong>
             <br />
