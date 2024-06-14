@@ -29,7 +29,7 @@ export const HeroSection = () => {
             <br/><br/>
             Hello, I&apos;m<br></br>
           </h1>
-          <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold  ">
+          <h1 className="text-emerald-800 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <TypeAnimation sequence={[
                 'Hemanth',
                 1000,

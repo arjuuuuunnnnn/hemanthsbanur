@@ -204,7 +204,7 @@ const AboutSection = () => {
     });
   };
   return (
-    <section id="about" className={`text-zinc-400`}>
+    <section id="about" className="text-zinc-400">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/About.png"
@@ -221,7 +221,7 @@ const AboutSection = () => {
             About Me
           </h2>
           <br />
-          <p className="text-base md:text-lg text-zinc-400 font-sans">
+          <p className="text-base md:text-lg text-zinc-400">
             Hello I&apos;m{" "}
             <strong className="font-extrabold">Hemanth S Banur</strong>
             <br />
