@@ -102,6 +102,7 @@ const AboutSection = () => {
           width={500}
           height={900}
           alt="About Image"
+		  className="hero-image"
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
           <h2 className="text-2xl font-bold text-emerald-800">

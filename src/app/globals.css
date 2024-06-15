@@ -34,3 +34,9 @@ body {
 	font-family: SFMono-Regular;
 }
 
+@media (max-width: 780px){
+	.hero-image{
+		display: none;
+	}
+}
+
