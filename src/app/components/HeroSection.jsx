@@ -18,21 +18,19 @@ export const HeroSection = () => {
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left"> 
-          <h1 className="text-zinc-400  text-1xl sm:text-2xl lg:text-2xl font-bold  ">
+          <h1 className="text-zinc-400  text-1xl sm:text-1xl lg:text-1xl font-bold  ">
             <br/><br/>
-            Hello, I&apos;m<br></br>
+            Hello, I&apos;m<br/><span className="text-2xl text-emerald-800 font-sans">Hemanth</span><br></br>
           </h1>
-          <h1 className="text-emerald-800 mb-4 text-3xl sm:text-5xl lg:text-5xl font-extrabold">
+          <h1 className="text-emerald-800 mb-4 text-3xl sm:text-5xl lg:text-5xl font-extrabold"><span className="text-zinc-400 font-bold">I do&nbsp;</span> 
             <TypeAnimation sequence={[
-                'Hemanth',
+                'Web Dev',
                 1000,
-                'Web Developer',
+                'Machine Learning',
                 1000,
-                'Machine Learning Enthusiast',
+                'Game Dev',
                 1000,
-                'Game developer',
-                1000,
-                'DevOps Enthusiast',
+                'DevOps',
                 1000
             ]}
             wrapper="span"
