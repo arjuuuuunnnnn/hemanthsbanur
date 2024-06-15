@@ -184,13 +184,13 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-3 text-zinc-400">
           <Link href="https://github.com/arjuuuuunnnnn">
-            <FaGithub className="h-8 w-8"/>
+            <FaGithub className="h-8 w-8 hover:text-white hover:scale-110"/>
           </Link>
           <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/">
-            <IoLogoLinkedin className="h-8 w-8"/>
+            <IoLogoLinkedin className="h-8 w-8 hover:text-white hover:scale-110"/>
           </Link>
 		  <Link href="mailto:arjunbanur27@gmail.com">
-		<IoMail className="h-9 w-9"/>
+		<IoMail className="h-9 w-9 hover:text-white hover:scale-110"/>
 		</Link>
 
         </div>

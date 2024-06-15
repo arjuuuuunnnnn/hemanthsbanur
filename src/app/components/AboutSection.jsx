@@ -14,19 +14,19 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2"><VscAzure className="h-8 w-8" /></span>
-          <span className="mr-2 mb-2"><SiDebian className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiDocker className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaGithub className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaGitAlt className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiKalilinux className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaLinux className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiNeovim className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaUnity className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiVim className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><VscVscodeInsiders className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiPostman className="h-8 w-8"/></span>
-		      <span className="mr-2 mb-2"><SiFlutter className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><VscAzure className="h-8 w-8" /></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDebian className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDocker className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaGithub className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaGitAlt className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiKalilinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaLinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiNeovim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaUnity className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiVim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><VscVscodeInsiders className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPostman className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFlutter className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -37,16 +37,16 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2"><FaHtml5 className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaCss3 className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiJavascript className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaReact className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><TbBrandNextjs className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><FaNodeJs className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiTailwindcss className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiFirebase className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiFlask className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiMongodb className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaHtml5 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaCss3 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiJavascript className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaReact className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandNextjs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaNodeJs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiTailwindcss className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFirebase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFlask className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiMongodb className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -57,11 +57,11 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2"><TbBrandCoinbase className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><TbBrandCpp className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiPython className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2"><SiDart className="h-8 w-8"/></span>
-		      <span className="mr-2 mb-2"><TbBrandCSharp className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCoinbase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCpp className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPython className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDart className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCSharp className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -72,12 +72,12 @@ const TAB_DATA = [
 		content: (
 			<>
       <div className="flex flex-wrap">
-        <span className="mr-2 mb-2"><SiScikitlearn className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2"><SiPytorch className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2"><SiTensorflow className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2"><SiOpencv className="h-8 w-8"/></span>
-		    <span className="mr-2 mb-2"><SiPandas className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2"><SiNumpy className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiScikitlearn className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPytorch className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiTensorflow className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiOpencv className="h-8 w-8"/></span>
+		    <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPandas className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiNumpy className="h-8 w-8"/></span>
       </div>
     </>
 		),
@@ -104,22 +104,21 @@ const AboutSection = () => {
           alt="About Image"
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
-          <h2 className="text-4xl font-bold text-emerald-800">
+          <h2 className="text-2xl font-bold text-emerald-800">
             <br />
             <br />
             <br />
             <br />
             About Me
           </h2>
-          <br />
           <p className="text-zinc-400">
             Hello I&apos;m{" "}
-            <strong className="font-extrabold">Hemanth S Banur</strong>
+            <strong className="font-bold">Hemanth S Banur</strong>
             <br />
-            Just your average 19-year-old programmer, problem solver, and tech
+            Just your average 19-year old programmer, problem solver, and tech
             enthusiast.
             <br />
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               sudo apt-get install programmer
             </strong>
             <br />
@@ -127,11 +126,11 @@ const AboutSection = () => {
             Of course, that&apos;s not all. I also happen to be a game developer
             and a web developer. I mean, who needs a social life when you can
             spend your days{" "}
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               git push
             </strong>
             ing and{" "}
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               npm install
             </strong>
             ing, am I right?
@@ -139,20 +138,20 @@ const AboutSection = () => {
             <br />
             And let&apos;s not forget my undying love for machine learning. I
             practically live in the terminal, running{" "}
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               python3 ml_model.py
             </strong>{" "}
             until the sun comes up. It&apos;s a tough job, but someone&apos;s
             gotta do it.
             <br />
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               sudo apt-get install machine-learning
             </strong>
             <br />
             <br />
             Oh, and did I mention I&apos;m a total Linux enthusiast? I bet you
             couldn&apos;t tell from all the{" "}
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               sudo
             </strong>{" "}
             commands
@@ -161,24 +160,24 @@ const AboutSection = () => {
             Anyway, that&apos;s me in a nutshell. I&apos;m a well-rounded
             individual with a diverse skillset and an insatiable thirst for
             knowledge. Now, if you&apos;ll excuse me, I need to go{" "}
-            <strong className="font-extrabold text-emerald-800">
+            <strong className="font-bold text-emerald-800">
               sudo reboot
             </strong>{" "}
             my brain and come up with some more captivating hobbies
             <br />
           </p>
           <div className="mt-8">
-            <h5 className="text-3xl font-bold text-emerald-800 mb-3">
+            <h5 className="text-2xl font-bold text-emerald-800 mb-3">
               My Tech Stack
             </h5>
-            <div className="flex flex-row justify-start mr-12">
+            <div className="flex flex-row justify-start mr-12 text-1xl">
               <TabButton
                 selectTab={() => handleTabChange("devtools")}
                 active={tab === "devtools"}
                 className="mr-4"
               >
                 {" "}
-					Dev-Tools
+					Tools
 				{" "}
               </TabButton>
               <TabButton

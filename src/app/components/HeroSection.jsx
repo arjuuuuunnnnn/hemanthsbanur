@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
-import { motion } from "framer-motion";
 // import { useRouter } from "next/navigation";
 
 export const HeroSection = () => {
@@ -18,14 +17,8 @@ export const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
-	  <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
-        >
-          <h1 className="text-zinc-400  text-3xl sm:text-2xl lg:text-3xl font-bold  ">
+        <div className="col-span-7 place-self-center text-center sm:text-left"> 
+          <h1 className="text-zinc-400  text-1xl sm:text-2xl lg:text-2xl font-bold  ">
             <br/><br/>
             Hello, I&apos;m<br></br>
           </h1>
@@ -66,7 +59,6 @@ export const HeroSection = () => {
               <span className="text-zinc-300">GitHub</span>
             </button>
           </div>
-	  </motion.div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]">
@@ -79,7 +71,7 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-      </div>
+	  </div>
     </section>
   );
 };
