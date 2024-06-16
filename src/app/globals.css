@@ -38,5 +38,13 @@ body {
 	.hero-image{
 		display: none;
 	}
+	.hero-description-gap{
+		padding-bottom: 2rem;
+	}
 }
 
+@media (min-width: 780px){
+	.about-section-gap{
+		padding-top: 10rem;
+	}
+}

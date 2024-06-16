@@ -37,8 +37,8 @@ export const HeroSection = () => {
             repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE]">
-          I&apos;m a 19-year-old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
+          <p className="text-[#ADB7BE] hero-description-gap">
+          I&apos;m a 19-year old programmer, tech enthusiast, and all-around creative mind. My passion lies at the intersection of technology, design, and problem-solving
           </p>
           <div class="space-y-2">
             <button 

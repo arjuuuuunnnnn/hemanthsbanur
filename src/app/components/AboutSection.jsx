@@ -105,11 +105,7 @@ const AboutSection = () => {
 		  className="hero-image"
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
-          <h2 className="text-2xl font-bold text-emerald-800">
-            <br />
-            <br />
-            <br />
-            <br />
+          <h2 className="text-2xl font-bold text-emerald-800 about-section-gap">
             About Me
           </h2>
           <p className="text-zinc-400">
