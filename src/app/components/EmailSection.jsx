@@ -140,8 +140,9 @@
 "use client";
 import React, { useState } from "react"; 
 import Link from "next/link";
-import { IoMail, IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import { useForm } from '@formspree/react';
 
 const EmailSection = () => {
@@ -190,7 +191,7 @@ const EmailSection = () => {
             <IoLogoLinkedin className="h-8 w-8 hover:text-white hover:scale-110"/>
           </Link>
 		  <Link href="mailto:arjunbanur27@gmail.com">
-		<IoMail className="h-9 w-9 hover:text-white hover:scale-110"/>
+		<SiGmail className="h-8 w-8 hover:text-white hover:scale-110"/>
 		</Link>
 
         </div>
