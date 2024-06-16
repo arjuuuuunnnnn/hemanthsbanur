@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="footer border z-5 border-top-emerald-800 border-l-transparent text-zinc-400">
+    <footer className="footer border z-5 border-top-emerald-800 border-l-transparent text-zinc-400 flex justify-center">
       <div className="container p-12 flex justify-center">
         <p>arjuuuuunnnnn @ <span className="hover:text-emerald-800">
 	  <Link href="/">
