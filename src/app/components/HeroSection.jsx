@@ -16,9 +16,9 @@ export const HeroSection = () => {
 
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left"> 
-          <h1 className="text-zinc-400  text-1xl sm:text-1xl lg:text-1xl font-bold  ">
+      <div className="grid grid-cols-1 sm:grid-cols-12 display-left">
+        <div className="col-span-7"> 
+          <h1 className="text-zinc-400  text-1xl sm:text-1xl lg:text-1xl font-bold">
             <br/><br/>
             Hello, I&apos;m<br/><span className="text-2xl text-emerald-800 font-sans">Hemanth</span><br></br>
           </h1>
@@ -59,7 +59,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] hero-image">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] hero-image">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
