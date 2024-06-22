@@ -14,19 +14,19 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><VscAzure className="h-8 w-8" /></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDebian className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDocker className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaGithub className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaGitAlt className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiKalilinux className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaLinux className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiNeovim className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaUnity className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiVim className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><VscVscodeInsiders className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPostman className="h-8 w-8"/></span>
-		      <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFlutter className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><VscAzure className="h-8 w-8" /></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiDebian className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiDocker className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaGithub className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaGitAlt className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiKalilinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaLinux className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiNeovim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaUnity className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiVim className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><VscVscodeInsiders className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiPostman className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiFlutter className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -37,16 +37,16 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaHtml5 className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaCss3 className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiJavascript className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaReact className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandNextjs className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><FaNodeJs className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiTailwindcss className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFirebase className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiFlask className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiMongodb className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaHtml5 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaCss3 className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiJavascript className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaReact className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><TbBrandNextjs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><FaNodeJs className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiTailwindcss className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiFirebase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiFlask className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiMongodb className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -57,11 +57,11 @@ const TAB_DATA = [
     content: (
       <>
         <div className="flex flex-wrap">
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCoinbase className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCpp className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPython className="h-8 w-8"/></span>
-          <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiDart className="h-8 w-8"/></span>
-		      <span className="mr-2 mb-2 hover:text-white hover:scale-110"><TbBrandCSharp className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><TbBrandCoinbase className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><TbBrandCpp className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiPython className="h-8 w-8"/></span>
+          <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiDart className="h-8 w-8"/></span>
+		      <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><TbBrandCSharp className="h-8 w-8"/></span>
         </div>
       </>
     ),
@@ -72,12 +72,12 @@ const TAB_DATA = [
 		content: (
 			<>
       <div className="flex flex-wrap">
-        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiScikitlearn className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPytorch className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiTensorflow className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiOpencv className="h-8 w-8"/></span>
-		    <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiPandas className="h-8 w-8"/></span>
-        <span className="mr-2 mb-2 hover:text-white hover:scale-110"><SiNumpy className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiScikitlearn className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiPytorch className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiTensorflow className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiOpencv className="h-8 w-8"/></span>
+		    <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiPandas className="h-8 w-8"/></span>
+        <span className="mr-2 mb-2 hover:text-emerald-800 hover:scale-110"><SiNumpy className="h-8 w-8"/></span>
       </div>
     </>
 		),
