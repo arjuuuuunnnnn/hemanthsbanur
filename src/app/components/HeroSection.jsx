@@ -20,7 +20,7 @@ export const HeroSection = () => {
         <div className="col-span-7"> 
           <h1 className="text-zinc-400  text-1xl sm:text-1xl lg:text-1xl font-bold">
             <br/><br/>
-            Hello, I&apos;m<br/><span className="text-2xl text-emerald-800 font-sans">Hemanth</span><br></br>
+            Hello, I&apos;m<br/><span className="text-2xl text-emerald-800">Hemanth</span><br></br>
           </h1>
           <h1 className="text-emerald-800 mb-4 text-3xl sm:text-5xl lg:text-5xl font-extrabold"><span className="text-zinc-400 font-bold">I do&nbsp;</span> 
             <TypeAnimation sequence={[
