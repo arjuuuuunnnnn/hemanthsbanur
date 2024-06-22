@@ -11,7 +11,7 @@ export const HeroSection = () => {
 	// };
 
 	const handleResume = () => {
-		window.open('/resume/hemanth_cv.pdf', '_blank');
+		window.open('/resume/res.pdf', '_blank');
 	};
 
   return (
