@@ -15,7 +15,7 @@ export const HeroSection = () => {
 	};
 
   return (
-    <section>
+    <section className="text-base">
       <div className="grid grid-cols-1 sm:grid-cols-12 display-left">
         <div className="col-span-7"> 
           <h1 className="text-zinc-400  text-1xl sm:text-1xl lg:text-1xl font-bold">
