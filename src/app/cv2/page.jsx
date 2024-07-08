@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { SiGmail } from "react-icons/si";
 import Link from "next/link";
@@ -12,7 +10,7 @@ const projects = [
     name: "Cropify",
     description: "Cropify is a web application built using React.js, Flask & Machine learning models in the backend",
     link: "https://github.com/arjuuuuunnnnn/Cropify",
-    tags: ["Web", "ML"]
+    tags: ["ReactJS", "Flask", "ML"]
   },
   {
     name: "Machine Learning",
@@ -30,10 +28,10 @@ const projects = [
 
 const ResumePage = () => {
   return (
-    <>
-      <section className="flex flex-col items-center justify-center min-h-screen bg-[#121212] text-zinc-300 px-2 md:px-0">
-        <div className="flex flex-col md:flex-row justify-between items-start w-full md:w-3/4 mb-4">
-          <div className="flex flex-col items-start flex-1">
+    <div className="min-h-screen bg-[#121212] text-zinc-300 p-4 md:p-8">
+      <div className="max-w-4xl mx-auto">
+        <div className="flex justify-between items-start mb-8">
+          <div className="flex-1 pr-4">
             <h1 className="text-2xl font-bold">Hemanth S Banur</h1>
             <p className="text-sm text-gray-400 mb-2">Machine Learning Enthusiast</p>
             <div className="flex flex-wrap">
@@ -44,9 +42,9 @@ const ResumePage = () => {
               <Link href="https://hemanthsbanur.vercel.app"><SlGlobe className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
             </div>
           </div>
-          <div className="flex-shrink-0 mt-4 md:mt-0 md:ml-4">
+          <div className="flex-shrink-0">
             <Image
-              src="/images/About.png"
+              src="/images/cv-img.jpeg"
               alt="Profile Picture"
               width={120}
               height={120}
@@ -55,9 +53,9 @@ const ResumePage = () => {
           </div>
         </div>
 
-        <section className="my-2 w-full md:w-3/4">
-          <h2 className="font-semibold border-b border-emerald-800 pb-1 mb-4">Education</h2>
-          <div className="mb-4">
+        <section className="mb-8">
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Education</h2>
+          <div>
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-base">PES University</h3>
               <span className="text-xs font-normal">Nov 2022 - Present</span>
@@ -67,45 +65,56 @@ const ResumePage = () => {
           </div>
         </section>
 
-        <section className="my-1 w-full md:w-3/4">
-          <h2 className="font-semibold border-b border-emerald-800 pb-1 mb-4">Experience</h2>
-          <div className="mb-4">
-            <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-base">Toyota Kirloskar Motor</h3>
-              <span className="text-xs font-normal">June 2024 - July 2024, Full-time</span>
+        <section className="mb-8">
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Experience</h2>
+          {[
+            
+			{
+              title: "IEEE CS, PES University",
+              position: "Open Source Project Initiative",
+              duration: "Jul 2024 - Aug 2024, Part-time",
+              location: "Bangalore",
+              description: "Developing a hybrid GAN-VAE model for artistic style transfer"
+            },
+			  {
+              title: "Toyota Kirloskar Motor",
+              position: "Data Science Intern",
+              duration: "June 2024 - July 2024, Full-time",
+              location: "Bangalore, India",
+              description: "Developed, deployed and maintaining an automated web scraping and review analysis system using NLTK, Developed automated analysis, and report filling web application"
+            },
+            {
+              title: "CDSAML, PES University",
+              position: "Research Intern",
+              duration: "June 2024 - July 2024, Part-time",
+              location: "Bangalore",
+              description: [
+                "Developing a Multi-Model system, which converts Kannada speech to English Text",
+                "Working under Dr.Shylaja S S"
+              ]
+            }
+		  ].map((exp, index) => (
+            <div key={index} className="mb-4">
+              <div className="flex justify-between items-center">
+                <h3 className="font-semibold text-base">{exp.title}</h3>
+                <span className="text-xs font-normal">{exp.duration}</span>
+              </div>
+              <p className="text-xs">{exp.location}</p>
+              <p className="text-sm">{exp.position}</p>
+              {Array.isArray(exp.description) ? (
+                <ul className="list-disc ml-6 text-sm">
+                  {exp.description.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-sm">{exp.description}</p>
+              )}
             </div>
-            <p className="text-xs">Bangalore, India</p>
-            <p className="text-sm">Data Science Intern</p>
-            <ul className="list-disc ml-6 text-sm">
-              <li>Developed, deployed and maintaining an automated web scraping and review analysis system using NLTK, Developed automated analysis, and report filling web application</li>
-            </ul>
-          </div>
-          <div className="mb-4">
-            <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-base">CDSAML, PES University</h3>
-              <span className="text-xs font-normal">June 2024 - July 2024, Part-time</span>
-            </div>
-            <p className="text-xs">Bangalore</p>
-            <p className="text-sm">Research Intern</p>
-            <ul className="list-disc ml-6 text-sm">
-              <li>Developing a Multi-Model system, which converts Kannada speech to English Text</li>
-              <li>Working under Dr.Shylaja S S</li>
-            </ul>
-          </div>
-          <div className="mb-4">
-            <div className="flex justify-between items-center">
-              <h3 className="font-semibold text-base">IEEE CS, PES University</h3>
-              <span className="text-xs font-normal">Jul 2024 - Aug 2024, Part-time</span>
-            </div>
-            <p className="text-xs">Bangalore</p>
-            <p className="text-sm">Open Source Project Initiative</p>
-            <ul className="list-disc ml-6 text-sm">
-              <li>Developing a model using hybrid VAE-GAN for image style transfer</li>
-            </ul>
-          </div>
+          ))}
         </section>
 
-        <section className="my-2 w-full md:w-3/4">
+        <section>
           <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Projects</h2>
           {projects.map((project, index) => (
             <div key={index} className="mb-4">
@@ -113,7 +122,7 @@ const ResumePage = () => {
                 <a href={project.link} className="underline hover:text-emerald-800">{project.name}</a>
               </h3>
               <p className="text-sm">{project.description}</p>
-              <div className="flex flex-wrap mt-1 text-xs">
+              <div className="flex flex-wrap mt-1">
                 {project.tags.map((tag, idx) => (
                   <span key={idx} className="text-xs bg-gray-700 text-white px-2 py-1 mr-2 mb-2 rounded-md">{tag}</span>
                 ))}
@@ -121,10 +130,9 @@ const ResumePage = () => {
             </div>
           ))}
         </section>
-      </section>
-    </>
+      </div>
+    </div>
   );
 };
 
 export default ResumePage;
-
