@@ -35,7 +35,7 @@ const ResumePage = () => {
         <div className="flex flex-col md:flex-row justify-between items-start w-full md:w-3/4 mb-4">
           <div className="flex flex-col items-start flex-1">
             <h1 className="text-2xl font-bold">Hemanth S Banur</h1>
-            <p className="text-sm text-gray-400 mb-2">AI Researcher, Building Generative AI solutions at Scale</p>
+            <p className="text-sm text-gray-400 mb-2">Machine Learning Enthusiast</p>
             <div className="flex flex-wrap">
               <Link href="tel:+916363546350"><FaPhoneAlt className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
               <Link href="mailto:arjunbanur27@gmail.com"><SiGmail className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
