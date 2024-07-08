@@ -79,14 +79,14 @@ const ResumePage = () => {
 			  {
               title: "Toyota Kirloskar Motor",
               position: "Data Science Intern",
-              duration: "June 2024 - July 2024, Full-time",
+              duration: "Jun 2024 - Jul 2024, Full-time",
               location: "Bangalore, India",
               description: "Developed, deployed and maintaining an automated web scraping and review analysis system using NLTK, Developed automated analysis, and report filling web application"
             },
             {
               title: "CDSAML, PES University",
               position: "Research Intern",
-              duration: "June 2024 - July 2024, Part-time",
+              duration: "Jun 2024 - Jul 2024, Part-time",
               location: "Bangalore",
               description: [
                 "Developing a Multi-Model system, which converts Kannada speech to English Text",

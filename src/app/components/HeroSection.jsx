@@ -2,17 +2,17 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
-// import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export const HeroSection = () => {
-	// const router = useRouter();
-	// const handleResume = () => {
-	// 	router.push("/error");
-	// };
-
-	const handleResume = () => {
-		window.open('/resume/res.pdf', '_blank');
+	 const router = useRouter();
+	 const handleResume = () => {
+	 router.push("/error");
 	};
+
+	// const handleResume = () => {
+	//	window.open('/resume/res.pdf', '_blank');
+	// };
 
   return (
     <section className="text-base">
