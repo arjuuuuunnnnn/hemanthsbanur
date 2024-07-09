@@ -86,6 +86,17 @@ const ResumePage = () => {
             />
           </div>
         </div>
+
+		<section className="mb-8">
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Summary</h2>
+          <p className="text-sm">
+            Passionate Machine Learning and MLOps enthusiast with a strong foundation in Computer Science. 
+            Experienced in developing ML models, implementing MLOps practices, and creating web applications. 
+            Skilled in various programming languages and frameworks, with a keen interest in solving complex 
+            problems through innovative technological solutions. Committed to continuous learning and 
+            staying updated with the latest advancements in software development.
+          </p>
+        </section>
 		
 		<section className="mb-8">
 			<h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Skills</h2>
