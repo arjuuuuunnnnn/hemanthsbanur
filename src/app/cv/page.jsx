@@ -62,7 +62,7 @@ const activitiesAndAchievements = [
 
 const ResumePage = () => {
   return (
-    <div className="min-h-screen bg-[#121212] text-zinc-400 p-4 md:p-8">
+    <div className="min-h-screen bg-[#000000] text-zinc-400 p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-start mb-8">
           <div className="flex-1 pr-4">
