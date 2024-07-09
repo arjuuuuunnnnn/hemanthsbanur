@@ -10,7 +10,7 @@ const projects = [
     name: "Cropify",
     description: "Cropify is a web application built using React.js, Flask & Machine learning models in the backend",
     link: "https://github.com/arjuuuuunnnnn/Cropify",
-    tags: ["Web", "ML"]
+    tags: ["ReactJS", "Flask", "ML"]
   },
   {
     name: "Machine Learning",
@@ -30,8 +30,8 @@ const ResumePage = () => {
   return (
     <div className="min-h-screen bg-[#121212] text-zinc-300 p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-8">
-          <div className="flex-1">
+        <div className="flex justify-between items-start mb-8">
+          <div className="flex-1 pr-4">
             <h1 className="text-2xl font-bold">Hemanth S Banur</h1>
             <p className="text-sm text-gray-400 mb-2">Machine Learning Enthusiast</p>
             <div className="flex flex-wrap">
@@ -42,9 +42,9 @@ const ResumePage = () => {
               <Link href="https://hemanthsbanur.vercel.app"><SlGlobe className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
             </div>
           </div>
-          <div className="mt-4 md:mt-0">
+          <div className="flex-shrink-0">
             <Image
-              src="/images/About.png"
+              src="/images/cv-img.jpeg"
               alt="Profile Picture"
               width={120}
               height={120}
@@ -68,31 +68,32 @@ const ResumePage = () => {
         <section className="mb-8">
           <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Experience</h2>
           {[
-            {
+            
+			{
+              title: "IEEE CS, PES University",
+              position: "Open Source Project Initiative",
+              duration: "Jul 2024 - Aug 2024, Part-time",
+              location: "Bangalore",
+              description: "Developing a hybrid GAN-VAE model for artistic style transfer"
+            },
+			  {
               title: "Toyota Kirloskar Motor",
               position: "Data Science Intern",
-              duration: "June 2024 - July 2024, Full-time",
+              duration: "Jun 2024 - Jul 2024, Full-time",
               location: "Bangalore, India",
               description: "Developed, deployed and maintaining an automated web scraping and review analysis system using NLTK, Developed automated analysis, and report filling web application"
             },
             {
               title: "CDSAML, PES University",
               position: "Research Intern",
-              duration: "June 2024 - July 2024, Part-time",
+              duration: "Jun 2024 - Jul 2024, Part-time",
               location: "Bangalore",
               description: [
                 "Developing a Multi-Model system, which converts Kannada speech to English Text",
                 "Working under Dr.Shylaja S S"
               ]
-            },
-            {
-              title: "IEEE CS, PES University",
-              position: "Open Source Project Initiative",
-              duration: "Jul 2024 - Aug 2024, Part-time",
-              location: "Bangalore",
-              description: "Developing a model using hybrid VAE-GAN for image style transfer"
             }
-          ].map((exp, index) => (
+		  ].map((exp, index) => (
             <div key={index} className="mb-4">
               <div className="flex justify-between items-center">
                 <h3 className="font-semibold text-base">{exp.title}</h3>
