@@ -88,7 +88,7 @@ const ResumePage = () => {
         </div>
 
 		<section className="mb-8">
-          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Summary</h2>
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Summary</h2>
           <p className="text-sm">
             Passionate Machine Learning and MLOps enthusiast with a strong foundation in Computer Science. 
             Experienced in developing ML models, implementing MLOps practices, and creating web applications. 
@@ -99,7 +99,7 @@ const ResumePage = () => {
         </section>
 		
 		<section className="mb-8">
-			<h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Skills</h2>
+			<h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Skills</h2>
 				{Object.entries(skills).map(([category, skillList]) => (
 			<div key={category} className="mb-2">
 				<h3 className="font-semibold text-sm text-zinc-300">{category}:</h3>
@@ -109,7 +109,7 @@ const ResumePage = () => {
 		</section>
 	    
         <section className="mb-8">
-          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Education</h2>
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Education</h2>
           <div>
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-base text-zinc-300">PES University</h3>
@@ -121,7 +121,7 @@ const ResumePage = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Experience</h2>
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Experience</h2>
           {[
             
 			{
@@ -176,7 +176,7 @@ const ResumePage = () => {
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Projects</h2>
+          <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Projects</h2>
           {projects.map((project, index) => (
             <div key={index} className="mb-4">
               <h3 className="font-semibold text-zinc-300">
@@ -193,7 +193,7 @@ const ResumePage = () => {
         </section>
 
 	    <section className="mb-8">
-			<h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4">Activities & Achievements</h2>
+			<h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-4 text-zinc-300">Activities & Achievements</h2>
 			{activitiesAndAchievements.map((item, index) => (
 			<div key={index} className="mb-2">
 				<h3 className="font-semibold text-sm text-zinc-300">{item.title}</h3>
