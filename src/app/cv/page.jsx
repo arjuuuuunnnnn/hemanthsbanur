@@ -142,11 +142,15 @@ const ResumePage = () => {
 		  ].map((exp, index) => (
             <div key={index} className="mb-4">
               <div className="flex justify-between items-center">
+			  <div>
                 <h3 className="font-semibold text-base text-zinc-300">{exp.title}</h3>
-                <span className="text-xs font-normal">{exp.duration}</span>
-              </div>
-              <p className="text-xs">{exp.location}</p>
-              <p className="text-sm text-zinc-300">{exp.position}</p>
+			  <p className="text-sm text-zinc-300">{exp.position}</p>
+			  </div>
+			  <div className="text-right">
+				<span className="text-xs font-normal">{exp.duration}</span>
+			  <p className="text-xs">{exp.location}</p>
+				</div>
+                  </div>
               {Array.isArray(exp.description) ? (
                 <ul className="list-disc ml-6 text-sm">
                   {exp.description.map((item, idx) => (
