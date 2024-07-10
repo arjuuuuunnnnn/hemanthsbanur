@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export const HeroSection = () => {
 	 const router = useRouter();
 	 const handleResume = () => {
-	 router.push("/cv");
+	 router.push("/error");
 	};
 
 	// const handleResume = () => {
