@@ -71,7 +71,7 @@ const ResumePage = () => {
             <div className="flex flex-wrap text-zinc-300">
               <Link href="tel:+916363546350"><FaPhoneAlt className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
               <Link href="mailto:arjunbanur27@gmail.com"><SiGmail className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
-              <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/"><FaLinkedin className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
+              <Link href="https://www.linkedin.com/in/hemanth-s-banur/"><FaLinkedin className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
               <Link href="https://github.com/arjuuuuunnnnn"><FaGithub className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
               <Link href="https://hemanthsbanur.vercel.app"><SlGlobe className="hover:scale-105 hover:text-white mx-2 my-1"/></Link>
             </div>
