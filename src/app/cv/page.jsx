@@ -129,7 +129,7 @@ const ResumePage = () => {
               position: "Open Source Project Initiative",
               duration: "Jul 2024 - Aug 2024, Part-time",
               location: "Bangalore",
-              description: "Developing a hybrid GAN-VAE model for artistic style transfer"
+              description: ["Developing a hybrid GAN-VAE model which converts a normal picture into pencil sketch"]
             },
 			  {
               title: "Toyota Kirloskar Motor",
@@ -146,8 +146,9 @@ const ResumePage = () => {
               duration: "Jun 2024 - Jul 2024, Part-time",
               location: "Bangalore",
               description: [
-                "Developing a Multi-Model system, which converts Kannada speech to English Text",
-                "Working under Dr.Shylaja S S"
+                "Developed a multi-modal pipeline for converting Kannada speech to English Text",
+                "Stages involving Audio denoising, Enhancing, segmenting, Transcripting, Punctuating, Translating, Grammar checking",
+				"User can edit the output of each stage or let as it is, so that it's fed as input for successive stage"
               ]
             }
 		  ].map((exp, index) => (
