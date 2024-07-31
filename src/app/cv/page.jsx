@@ -97,7 +97,7 @@ const ResumePage = () => {
         <section>
           <h2 className="text-lg font-semibold border-b border-emerald-800 pb-1 mb-2 text-zinc-300">Projects</h2>
           {projects.map((project, index) => (
-            <div key={index} className="mb-4">
+            <div key={index} className="mb-2">
               <h3 className="font-semibold text-zinc-300">
                 <a href={project.link} className="underline hover:text-white">{project.name}</a>
               </h3>
