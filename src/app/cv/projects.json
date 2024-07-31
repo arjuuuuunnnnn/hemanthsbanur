@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cropify",
+    "description": "Cropify is a web application built using React.js, Flask & Machine learning models in the backend",
+    "link": "https://github.com/arjuuuuunnnnn/Cropify",
+    "tags": ["ReactJS", "Flask", "scikit-learn", "keras"]
+  },
+  {
+    "name": "MLOps",
+    "description": "1. Credit Card Fraud Detection 2. Customer Satisfaction. Used pipelining, DagsHub, ZenML, mlFlow",
+    "link": "https://github.com/arjuuuuunnnnn/CreditCard-Fraud-Detect-MLOps",
+    "tags": ["dagshub", "mlflow", "python"]
+  },
+  {
+    "name": "Machine Learning",
+    "description": "1. Wine quality 2. Kidney disease classification. Data Ingestion, Data Validation, Data Transformation, Model Training, Prediction Pipeline",
+    "link": "https://github.com/arjuuuuunnnnn/Wine-Quality-End-to-End-ML",
+    "tags": ["scikit-learn", "dvc", "python"]
+  },
+  {
+    "name": "Reg-Model",
+    "description": "Built a Regression model for a particular dataset with all the statistical analysis",
+    "link": "https://github.com/arjuuuuunnnnn/Reg-model",
+    "tags": ["Data Analysis", "scikit-learn", "python"]
+  },
+  {
+    "name": "Zombie v/s player 3D",
+    "description": "An Unity Developed 3D game",
+    "link": "https://github.com/arjuuuuunnnnn/Zombie-3D",
+    "tags": ["Unity", "C#"]
+  }
+]

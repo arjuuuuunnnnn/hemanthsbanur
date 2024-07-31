@@ -1,0 +1,5 @@
+{
+  "Languages": ["C/C++", "C#", "Python", "JavaScript", "TypeScript", "MATLAB", "HTML", "CSS"],
+  "Libraries": ["Pandas", "Numpy", "Scikit-Learn", "OpenCV", "PyTorch", "TensorFlow", "Matplotlib", "Seaborn", "NLTK"],
+  "Frameworks/Tools": ["Docker", "React.js", "Node.js", "MongoDB", "Git", "Unity", "Azure", "mlflow", "ZenML", "Flask", "Dagshub", "Firebase", "Django", "Flutter", "Linux"]
+}

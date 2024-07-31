@@ -1,0 +1,30 @@
+[
+  {
+    "title": "IEEE CS, PES University",
+    "position": "Open Source Project Initiative",
+    "duration": "Jul 2024 - Aug 2024, Part-time",
+    "location": "Bangalore",
+    "description": ["Developing a hybrid GAN-VAE model which converts a normal picture into pencil sketch"]
+  },
+  {
+    "title": "Toyota Kirloskar Motor",
+    "position": "Data Science Intern",
+    "duration": "Jun 2024 - Jul 2024, Full-time",
+    "location": "Bangalore, India",
+    "description": [
+      "Developed an automated web scraping and review analysis system using NLTK, used by all the employees reducing manual work time from 6-7 hours to 8-10 seconds",
+      "Developed an automated daily remote data pre-processor, analyser, visualizer"
+    ]
+  },
+  {
+    "title": "CDSAML, PES University",
+    "position": "Research Intern",
+    "duration": "Jun 2024 - Jul 2024, Part-time",
+    "location": "Bangalore",
+    "description": [
+      "Developed a multi-modal pipeline for converting Kannada speech to English Text",
+      "Stages involving Audio denoising, Enhancing, segmenting, Transcripting, Punctuating, Translating, Grammar checking",
+      "User can edit the output of each stage or let as it is, so that it's fed as input for successive stage"
+    ]
+  }
+]
