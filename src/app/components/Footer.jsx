@@ -17,7 +17,7 @@ const Footer = () => {
 	  <Link href="https://github.com/arjuuuuunnnnn/">
 	  <FaGithub className="hover:scale-105 hover:text-white mt-2 mr-4"/>
 	  </Link>
-	  <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/">
+	  <Link href="https://www.linkedin.com/in/hemanth-s-banur/">
 	  <FaLinkedin className="hover:scale-105 hover:text-white mt-2 mr-4"/>
 	  </Link>
 	  <Link href="mailto:arjunbanur27@gmail.com">

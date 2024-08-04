@@ -187,7 +187,7 @@ const EmailSection = () => {
           <Link href="https://github.com/arjuuuuunnnnn">
             <FaGithub className="h-8 w-8 hover:text-white hover:scale-110"/>
           </Link>
-          <Link href="https://www.linkedin.com/in/hemanth-s-banur-3aaa34284/">
+          <Link href="https://www.linkedin.com/in/hemanth-s-banur/">
             <IoLogoLinkedin className="h-8 w-8 hover:text-white hover:scale-110"/>
           </Link>
 		  <Link href="mailto:arjunbanur27@gmail.com">
