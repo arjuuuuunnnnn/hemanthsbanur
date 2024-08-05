@@ -4,7 +4,7 @@
     "position": "Open Source Project Initiative",
     "duration": "Jul 2024 - Aug 2024, Part-time",
     "location": "Bangalore",
-    "description": ["Developing a hybrid GAN-VAE model which converts a normal picture into pencil sketch"]
+    "description": ["Developing a hybrid GAN-VAE architecture for artistic style transfer"]
   },
   {
     "title": "Toyota Kirloskar Motor",
@@ -13,7 +13,8 @@
     "location": "Bangalore, India",
     "description": [
       "Developed an automated web scraping and review analysis system using NLTK, used by all the employees reducing manual work time from 6-7 hours to 8-10 seconds",
-      "Developed an automated daily remote data pre-processor, analyser, visualizer"
+	  "Built a system for real time remote data analysis, cutting down manual work time from 4-5 hours to 5-10 seconds",
+	  "Deployed all my projects on LAN and made available for all the employees"
     ]
   },
   {
