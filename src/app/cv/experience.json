@@ -4,7 +4,9 @@
     "position": "Open Source Project Initiative",
     "duration": "Jul 2024 - Aug 2024, Part-time",
     "location": "Bangalore",
-    "description": ["Developing a hybrid GAN-VAE architecture for artistic style transfer"]
+    "description": ["Developed a hybrid GAN-VAE architecture for artistic style transfer", 
+		"Approached in cyclic GAN, Attention GAN, Autoencoders, hybrid VAE-GAN"
+	]
   },
   {
     "title": "Toyota Kirloskar Motor",
