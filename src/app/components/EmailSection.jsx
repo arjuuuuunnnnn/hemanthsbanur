@@ -211,7 +211,7 @@ const EmailSection = () => {
               id="email"
               required
               className="bg-[#18191E] border border-emerald-800 placeholder-zinc-400 text-sm rounded-lg block w-full p-2.5"
-              placeholder="arjunbanur27@gmail.com"
+              placeholder="youremail@email.com"
             />
           </div>
           <div className="mb-6">
