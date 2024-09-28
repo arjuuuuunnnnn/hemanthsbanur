@@ -106,7 +106,7 @@ const AboutSection = () => {
         />
         <div className="mt-4 md:mt-0 text-left flex-col h-full">
           <h2 className="text-2xl font-bold text-emerald-800 about-section-gap">
-            About Me
+            $ whoami
           </h2>
           <p className="text-zinc-400">
             Hello I&apos;m{" "}
@@ -165,7 +165,7 @@ const AboutSection = () => {
           </p>
           <div className="mt-8">
             <h5 className="text-2xl font-bold text-emerald-800 mb-3">
-              My Tech Stack
+              cat /etc/tech-stack
             </h5>
             <div className="flex flex-row justify-start mr-12 text-1xl">
               <TabButton
