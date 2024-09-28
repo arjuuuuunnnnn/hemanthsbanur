@@ -175,7 +175,7 @@ const EmailSection = () => {
     >
       <div className="z-10">
         <p className="text-xl font-extrabold text-emerald-800 my-2">
-          ./establish_connection.sh
+          $ ./establish_connection.sh
         </p>
         <p className="text-zinc-400 mb-4 max-w-md">
           {" "}

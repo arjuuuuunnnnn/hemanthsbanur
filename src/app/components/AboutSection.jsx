@@ -165,7 +165,7 @@ const AboutSection = () => {
           </p>
           <div className="mt-8">
             <h5 className="text-2xl font-bold text-emerald-800 mb-3">
-              cat /etc/tech-stack
+              $ cat /etc/tech-stack
             </h5>
             <div className="flex flex-row justify-start mr-12 text-1xl">
               <TabButton
