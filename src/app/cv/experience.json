@@ -2,7 +2,7 @@
   {
     "title": "IEEE CS, PES University",
     "position": "Open Source Project Initiative",
-    "duration": "Jul 2024 - Aug 2024, Part-time",
+    "duration": "Jul 2024 - Aug 2024, Remote",
     "location": "Bangalore",
     "description": ["Architected and implemented a novel hybrid GAN-VAE system for artistic style transfer, combining an encoder for feature extraction with advanced generative networks, achieving 40% improved style preservation compared to baseline models", 
 		"Led comprehensive comparative analysis of multiple GAN architectures (Cycle GAN, Attention GAN), optimizing the final three-component architecture through systematic experimentation and achieving state-of-the-art results in artistic transformation quality"
@@ -11,7 +11,7 @@
   {
     "title": "Toyota Kirloskar Motor",
     "position": "Data Science Intern",
-    "duration": "Jun 2024 - Jul 2024, Full-time",
+    "duration": "Jun 2024 - Jul 2024, On-Site",
     "location": "Bangalore, India",
     "description": [
       "Developed and deployed an enterprise-level automated sentiment analysis system using NLTK and Python, revolutionizing review processing from 7 hours to 10 seconds, while enabling seamless access for 100+ employees across company LAN infrastructure",
@@ -21,7 +21,7 @@
   {
     "title": "CDSAML, PES University",
     "position": "Research Intern",
-    "duration": "Jun 2024 - Jul 2024, Part-time",
+    "duration": "Jun 2024 - Jul 2024, On-Site",
     "location": "Bangalore",
     "description": [
       "Developed a breakthrough Kannada-to-English speech translation pipeline surpassing Google’s Long Model benchmarks, implementing a comprehensive seven-stage system for real-time processing",
