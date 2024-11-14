@@ -101,7 +101,15 @@ const ResumePage = () => {
               <h3 className="font-semibold text-zinc-300">
                 <a href={project.link} className="underline hover:text-white">{project.name}</a>
               </h3>
-              <p className="text-sm">{project.description}</p>
+              <p className="text-sm">{Array.isArray(project.description) ? (
+                <ul className="list-disc ml-6 text-sm">
+                  {project.description.map((item, idx) => (
+                    <li key={idx}>{item}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-sm">{project.description}</p>
+              )}</p>
               <div className="flex flex-wrap mt-1">
                 {project.tags.map((tag, idx) => (
                   <span key={idx} className="text-xs bg-gray-700 text-white px-2 py-1 mr-2 mb-2 rounded-md">{tag}</span>

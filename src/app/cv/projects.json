@@ -1,32 +1,21 @@
 [
   {
-    "name": "Cropify",
-    "description": "Cropify is a web application built using React.js, Flask & Machine learning models in the backend",
-    "link": "https://github.com/arjuuuuunnnnn/Cropify",
-    "tags": ["ReactJS", "Flask", "scikit-learn", "keras"]
+    "name": "DevForge",
+    "description": ["Engineered an AI-powered development environment integrating LLMs with containerized runtimes, automating code generation, execution, and error-correction to enhance developer productivity and code reliability",
+		"Developed a web-based IDE with seamless project management and interactive console access, orchestrating communication between Linux filesystem, cloud containers, and AI models for a streamlined end-to-end development workflow"],
+    "link": "https://github.com/arjuuuuunnnnn/DevForge",
+    "tags": ["LLMs", "Docker", "python", "React.js"]
   },
   {
-    "name": "MLOps",
-    "description": "1. Credit Card Fraud Detection 2. Customer Satisfaction. Used pipelining, DagsHub, ZenML, mlFlow",
+    "name": "MLOps - Credit Card Fraud Detection",
+    "description": ["Architected and implemented a comprehensive end-to-end MLOps pipeline for credit card fraud detection, encompassing robust data ingestion, preprocessing, model training, and production deployment workflows","• Established a scalable MLOps infrastructure with version control, CI/CD, automated testing, and advanced experiment tracking/model management using DagsHub and MLflow, ensuring reproducibility and maintainability of machine learning systems"],
     "link": "https://github.com/arjuuuuunnnnn/CreditCard-Fraud-Detect-MLOps",
     "tags": ["dagshub", "mlflow", "python"]
   },
   {
-    "name": "Machine Learning",
-    "description": "1. Wine quality 2. Kidney disease classification. Data Ingestion, Data Validation, Data Transformation, Model Training, Prediction Pipeline",
+    "name": "Cropify",
+    "description": ["Developed a full-stack agricultural assistance platform integrating React.js frontend and Flask backend, leveraging ML/DL models to provide personalized crop and fertilizer recommendations based on environmental and location-based data","Implemented real-time plant disease detection using deep learning, with automated diagnosis and treatment recommendations, demonstrating the practical application of computer vision techniques to empower data-driven farming"],
     "link": "https://github.com/arjuuuuunnnnn/Wine-Quality-End-to-End-ML",
-    "tags": ["scikit-learn", "dvc", "python"]
-  },
-  {
-    "name": "Reg-Model",
-    "description": "Built a Regression model for a particular dataset with all the statistical analysis",
-    "link": "https://github.com/arjuuuuunnnnn/Reg-model",
-    "tags": ["Data Analysis", "scikit-learn", "python"]
-  },
-  {
-    "name": "Zombie v/s player 3D",
-    "description": "An Unity Developed 3D game",
-    "link": "https://github.com/arjuuuuunnnnn/Zombie-3D",
-    "tags": ["Unity", "C#"]
+    "tags": ["scikit-learn", "React.js", "python"]
   }
 ]
