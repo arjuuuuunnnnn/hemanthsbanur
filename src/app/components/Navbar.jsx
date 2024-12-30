@@ -21,7 +21,12 @@ const navLinks = [
   {
 	  title: "Resume",
 	  path: "/cv",
+  },
+  {
+	  title: "Blog",
+	  path: "https://hemanthsbanur.medium.com/",
   }
+
 ];
 
 const Navbar = () => {
@@ -59,7 +64,13 @@ const Navbar = () => {
               <li key={index}
               className="hover:text-emerald-800"
               >
-                <NavLink href={link.path} title={link.title}/>
+                {link.title === "Blog" ? (
+                  <a href={link.path} target="_blank" rel="noreferrer">
+                    {link.title}
+                  </a>
+                ) : (
+                  <NavLink href={link.path} title={link.title} />
+                )}
               </li>
             ))}
           </ul>
