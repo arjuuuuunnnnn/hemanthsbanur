@@ -56,6 +56,16 @@ export const HeroSection = () => {
             >
               <span className="text-zinc-300">GitHub</span>
             </button>
+
+			<button 
+            className="px-6 py-3 w-full sm:w-fit rounded-lg mr-4 bg-transparent border border-emerald-800 mt-3 border-[3px]"
+            onClick={() => {
+			  window.open('https://hemanthsbanur.medium.com', '_blank');
+			}
+			}
+            >
+              <span className="text-zinc-300">Blog</span>
+            </button>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
